@@ -69,8 +69,8 @@ async def kang(event):
         else: # ...and the sticker doesn't have one either
             emoji = "🤔"
 
-    packname = f"a{user.id}_by_{pack_username}_{number}{'_anim' if is_anim else ''}"
-    packtitle = (f"@{user.username or user.first_name}'s Paperplane Pack "
+    packname = f"phokyoo {'_anim' if is_anim else ''}"
+    packtitle = (f"phok yoo pek "
                 f"{number}{' animated' if is_anim else ''}")
     response = urllib.request.urlopen(
             urllib.request.Request(f'http://t.me/addstickers/{packname}'))
